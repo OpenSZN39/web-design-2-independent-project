@@ -23,15 +23,20 @@ header {
   font-weight: bold;
 }
 
-header ul {
-list-style-type: none;
-display: flex;
-gap: 5em;
-}
 
 header a {
   text-decoration: none;
   color: black;
+}
+
+.cart {
+  width: 25px;
+  height: auto;
+}
+
+.search {
+  width: 25px;
+  height: auto;
 }
 
 .banner {
@@ -54,13 +59,10 @@ header a {
 .button {
   background-color: red;
   color: #fff;
-  padding: .5em 1em;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 24em;
-  margin-right: 24em;
+  padding: .5em 1.5em .5em 1.5em;
+  position: absolute;
+  left: 46.5%;
+  top: 45%;
 }
 
 section a {
@@ -69,16 +71,20 @@ text-decoration: none;
 
 .featured-item {
   display: flex;
+  justify-content: space-around;
 }
 
 .featured-item img {
-  margin: 2em;
-  padding: 0;
+  padding-bottom: 1em;
   max-width: 30em;
 }
 
-
-
+.feature-button {
+  background-color: red;
+  color: #fff;
+  padding: .5em 1em .5em 1em;
+  text-align: center;
+}
 
 footer {
   display: flex;
@@ -97,4 +103,9 @@ footer a {
   background-color: red;
   color: #fff;
   padding: .5em 1em;
+}
+
+.social-button img {
+  width: 50px;
+  height: auto;
 }
