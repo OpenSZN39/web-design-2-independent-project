@@ -1,7 +1,32 @@
 html {
   box-sizing: border-box;
+  font-family: 'Quantico', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.logo {
+  max-width: 5em;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header ul {
+list-style-type: none;
+display: flex;
+gap: 5em;
+}
+
+.banner h1 {
+  align-items: center;
 }
