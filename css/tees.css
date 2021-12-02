@@ -39,59 +39,6 @@ header a {
   height: auto;
 }
 
-.banner {
-  background-image: url(../www/images/banner.jpg);
-  background-size: cover;
-  background-position: center;
-  padding: 0;
-  margin: 0;
-}
-
-.banner h1 {
-  text-align: center;
-  font-size: 3em;
-  font-weight: normal;
-  padding: 13rem;
-  margin: 0;
-  color: #fff;
-}
-
-.button {
-  background-color: red;
-  color: #fff;
-  padding: .5em 1.5em .5em 1.5em;
-  position: absolute;
-  left: 46.5%;
-  top: 45%;
-}
-
-section a {
-text-decoration: none;
-}
-
-.featured-item {
-  display: flex;
-  justify-content: space-around;
-}
-
-.featured-item img {
-  margin: 5em;
-  padding-bottom: 1em;
-  max-width: 30em;
-}
-
-.feature-button {
-  background-color: red;
-  color: #fff;
-  padding: .5em 1em .5em 1em;
-  text-align: center;
-}
-
-section div {
-  margin: 5em;
-  margin-left: -65em;
-}
-
 footer {
   display: flex;
   align-items: center;
