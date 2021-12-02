@@ -32,11 +32,17 @@ header a {
 .cart {
   width: 25px;
   height: auto;
+  position: absolute;
+  left: 85%;
+  top: 2.75%;
 }
 
 .search {
   width: 25px;
   height: auto;
+  position: absolute;
+  left: 88%;
+  top: 2.75%;
 }
 
 .banner {
@@ -95,7 +101,7 @@ section div {
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   background-color: black;
   padding: .5em;
 }
@@ -115,5 +121,15 @@ footer a img {
   background-color: red;
   color: #fff;
   padding: .5em 1em;
-  margin: 0;
+
+}
+
+.facebook {
+  position: absolute;
+  left: 81%;
+}
+
+.instagram {
+  position: absolute;
+  left: 85%;
 }
