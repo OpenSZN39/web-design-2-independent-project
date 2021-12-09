@@ -46,7 +46,9 @@ header a {
 }
 
 .banner {
+  background-color: #fff;
   background-image: url(../www/images/banner.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 0;

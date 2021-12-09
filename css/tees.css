@@ -64,3 +64,13 @@ footer a img {
   padding: .5em 1em;
   margin: 0;
 }
+
+.products {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
