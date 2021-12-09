@@ -65,10 +65,15 @@ footer a img {
   margin: 0;
 }
 
+h1 {
+  margin-left: 5em;
+}
+
 .products {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin-left: 10em;
+  margin-right: 10em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
