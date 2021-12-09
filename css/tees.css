@@ -15,7 +15,8 @@ body {
   max-width: 4em;
 }
 
-header {
+header ul {
+  list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -36,13 +37,28 @@ header a {
 
 .search {
   width: 25px;
-  height: auto;
 }
 
-footer {
+h1 {
+  margin-left: 5em;
+}
+
+.products {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 10em;
+  margin-right: 10em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  list-style-type: none;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: black;
   padding: .5em;
 }
@@ -62,20 +78,4 @@ footer a img {
   background-color: red;
   color: #fff;
   padding: .5em 1em;
-  margin: 0;
-}
-
-h1 {
-  margin-left: 5em;
-}
-
-.products {
-  list-style-type: none;
-  padding: 0;
-  margin-left: 10em;
-  margin-right: 10em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
 }
