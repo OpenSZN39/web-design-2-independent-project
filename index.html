@@ -15,7 +15,7 @@
 <body>
 
   <header class="nav">
-    <nav>
+    <nav role="navigation">
       <ul>
 
         <li>
@@ -53,14 +53,13 @@
 
   </header>
 
-  <main>
+  <main role="main">
 
     <section class="banner" aria-label="photograph of wild tee">
 
-      <h1>Welcome To Bytowne</h1>
-
-      <ul>
-        <li>
+          <h1>Welcome To Bytowne</h1>
+<ul>
+          <li>
           <a class="button" href="tees.html" aria-label="Shop Now">Shop Now</a>
         </li>
       </ul>
@@ -69,21 +68,25 @@
 
     <section class="featured-item">
 
-      <img src="www/images/crossword.jpg" alt="Featured Item">
+      <ul>
+        <li>
+          <img src="www/images/crossword.jpg" alt="Featured Item">
+        </li>
 
-      <div>
-        <h2>Crossword Tee</h2>
-        <p>Product description goes here.</p>
-        <a class="feature-button" href="crossword.html" aria-label="Shop Featured Item">
-          Shop Now
-        </a>
-      </div>
+        <li class="feature-info">
+            <h2>Crossword Tee</h2>
+            <p>Product description goes here.</p>
+            <a class="feature-button" href="crossword.html" aria-label="Shop Featured Item">
+              Shop Now
+            </a>
+        </li>
+      </ul>
 
     </section>
 
   </main>
 
-  <footer class="content-info">
+  <footer role="contentinfo">
 
     <ul>
 

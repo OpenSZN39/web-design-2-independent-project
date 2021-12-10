@@ -54,11 +54,22 @@ h1 {
   align-items: center;
 }
 
+.wild {
+  width: 651px;
+  height: 576px;
+  background-image: url(../www/images/wild.jpg);
+}
+
+.wild:hover {
+  background-image: url(../www/images/wild-back.jpg);
+  transition: all .5s;
+}
+
 footer ul {
   list-style-type: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: black;
   padding: .5em;
 }

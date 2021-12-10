@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Quantico', sans-serif;
+  font-family: Quantico, sans-serif;
 }
 
 *, *::before, *::after {
@@ -61,44 +61,38 @@ header a {
 .button {
   background-color: red;
   color: #fff;
-  padding: .5em 1.5em .5em 1.5em;
+  text-decoration: none;
+  padding: .5em 1.5em;
   position: absolute;
   left: 46.5%;
   top: 45%;
 }
 
-section a {
-  text-decoration: none;
-}
-
-.featured-item {
+section ul {
   display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
   justify-content: space-around;
+  margin: 10em;
 }
 
-.featured-item img {
-  margin: 5em;
-  padding-bottom: 1em;
-  max-width: 30em;
+.feature-info p {
+margin-bottom: 2.1em;
 }
 
 .feature-button {
   background-color: red;
   color: #fff;
-  padding: .5em 1em .5em 1em;
+  padding: .5em 1.5em;
   text-align: center;
-}
-
-section div {
-  margin: 5em;
-  margin-left: -65em;
+  text-decoration: none;
 }
 
 footer ul {
   list-style-type: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: black;
   padding: .5em;
 }
@@ -116,5 +110,5 @@ footer a img {
 .contact-button {
   background-color: red;
   color: #fff;
-  padding: .5em 1em;
+  padding: .5em 1.5em;
 }
