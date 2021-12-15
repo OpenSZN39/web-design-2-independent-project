@@ -1,10 +1,21 @@
 html {
   box-sizing: border-box;
   font-family: Quantico, sans-serif;
+  font-size: 80%;
 }
 
 @font-face {
   font-display: swap;
+}
+
+@media only screen and (max-width: 25em) {
+  html {
+    font-size: 100%;
+  }
+
+  section img {
+  width: 55%;
+  }
 }
 
 *, *::before, *::after {
@@ -84,14 +95,17 @@ header a:hover {
   color: #fff;
 }
 
+.banner li {
+  display: flex;
+  flex-direction: column;
+}
+
 .button {
   background-color: red;
   color: #000;
   text-decoration: none;
   padding: .5em 1.5em;
-  position: absolute;
-  left: 46.5%;
-  top: 45%;
+  margin-bottom: 10em;
 }
 
 section ul {
