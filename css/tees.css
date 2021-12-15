@@ -1,6 +1,10 @@
 html {
   box-sizing: border-box;
-  font-family: 'Quantico', sans-serif;
+  font-family: Quantico, sans-serif;
+}
+
+@font-face {
+  font-display: swap;
 }
 
 *, *::before, *::after {
@@ -32,6 +36,7 @@ body {
 
 .skip-links a:focus {
   top: 0;
+}
 
 header ul {
   list-style-type: none;

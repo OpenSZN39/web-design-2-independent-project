@@ -1,6 +1,11 @@
 html {
   box-sizing: border-box;
-  font-family: 'Quantico', sans-serif;
+  font-family: Quantico, sans-serif;
+  font-display: swap;
+}
+
+@font-face {
+  font-display: swap;
 }
 
 *, *::before, *::after {
@@ -32,68 +37,69 @@ body {
 
 .skip-links a:focus {
   top: 0;
-
-header ul {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 1.1rem;
-  font-weight: bold;
 }
 
-header a {
-  text-decoration: none;
-  color: black;
-}
+  header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
 
-header a:hover{
-  color: red;
-}
+  header a {
+    text-decoration: none;
+    color: black;
+  }
 
-.cart {
-  width: 25px;
-  height: auto;
-}
+  header a:hover{
+    color: red;
+  }
 
-.search {
-  width: 25px;
-}
+  .cart {
+    width: 25px;
+    height: auto;
+  }
 
-main {
-  margin: 5em 10em;
-}
+  .search {
+    width: 25px;
+  }
 
-.feature-button {
-  background-color: red;
-  color: #fff;
-  padding: .5em 1em .5em 1em;
-  text-align: center;
-  text-decoration: none;
-}
+  main {
+    margin: 5em 10em;
+  }
 
-footer ul {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: black;
-  padding: .5em;
-}
+  .feature-button {
+    background-color: red;
+    color: #fff;
+    padding: .5em 1em .5em 1em;
+    text-align: center;
+    text-decoration: none;
+  }
 
-footer a {
-  text-decoration: none;
-  color: #fff;
-}
+  footer ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: .5em;
+  }
 
-footer a img {
-  width: 50px;
-  height: auto;
-  margin: 0;
-}
+  footer a {
+    text-decoration: none;
+    color: #fff;
+  }
 
-.contact-button {
-  background-color: red;
-  color: #fff;
-  padding: .5em 1em;
-}
+  footer a img {
+    width: 50px;
+    height: auto;
+    margin: 0;
+  }
+
+  .contact-button {
+    background-color: red;
+    color: #fff;
+    padding: .5em 1em;
+  }
