@@ -11,6 +11,25 @@ body {
   margin: 0;
 }
 
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  background-color: #fff;
+  color: red;
+  padding: .75em .5em;
+  text-decoration: none;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
 .logo {
   max-width: 4em;
 }
@@ -27,6 +46,10 @@ header ul {
 header a {
   text-decoration: none;
   color: black;
+}
+
+header a:hover {
+  color: red;
 }
 
 .cart {
