@@ -57,11 +57,11 @@ h1 {
 .wild {
   width: 651px;
   height: 576px;
-  background-image: url(../www/images/wild.jpg);
+  background-image: url(../images/wild.jpg);
 }
 
 .wild:hover {
-  background-image: url(../www/images/wild-back.jpg);
+  background-image: url(../images/wild-back.jpg);
   transition: all .5s;
 }
 
