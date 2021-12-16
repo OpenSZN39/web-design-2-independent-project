@@ -18,13 +18,13 @@
     <li><a href="#main">Skip to main content</a></li>
   </ul>
 
-  <header class="nav">
-    <nav>
+  <header role="banner" class="nav">
+    <nav role="navigation" id="nav">
       <ul>
 
         <li>
           <a href="index.html" aria-label="Go Home">
-            <img class="logo" src="images/bytowne-logo.png" alt="">
+            <img class="logo" src="images/bytowne-logo.png" alt="Bytowne logo">
           </a>
         </li>
 
@@ -42,47 +42,51 @@
 
         <li>
           <a href="#" aria-label="Search">
-            <img class="cart" src="images/cart.svg" alt="">
+            <img class="cart" src="images/cart.svg" alt="Go to Cart">
           </a>
-        </li>
-
-        <li>
           <a href="#" aria-label="Go To Cart">
-            <img class="search" src="images/search.svg" alt="">
+            <img class="search" src="images/search.svg" alt="Search">
           </a>
         </li>
-
       </ul>
+
     </nav>
 
   </header>
 
   <main>
-    <h1>Crossword Tee</h1>
-    <img src="images/crossword.jpg" alt="">
-    <p>Product description goes here.</p>
-    <a class="feature-button" href="crossword.html" aria-label="Shop Featured Item">
-      Add to Cart
-    </a>
-  </main>
+    <section class="featured-item">
 
-  <footer class="content-info">
+      <ul>
+        <li>
+          <img src="images/crossword.jpg" alt="Featured Item">
+        </li>
+
+        <li class="feature-info">
+          <h2>Crossword Tee</h2>
+          <p>Product description goes here.</p>
+          <a class="feature-button" href="crossword.html" aria-label="Add to Cart">
+            Shop Now
+          </a>
+        </li>
+      </ul>
+
+    </section>
+  </main>
+  <footer role="contentinfo">
 
     <ul>
 
       <li>
-        <a class="contact-button" href="#">Contact Us</a>
+        <a class="contact-button" href="#" aria-label="Contact Us">Contact Us</a>
       </li>
 
       <li>
         <a href="#">
-          <img src="images/facebook.svg" alt="">
+          <img src="images/facebook.svg" alt="Go to Facebook" aria-label="Go to Facebook">
         </a>
-      </li>
-
-      <li>
         <a href="#">
-          <img src="images/instagram.svg" alt="instagram icon">
+          <img src="images/instagram.svg" alt="Go to Instagram" aria-label="Go to Instagram">
         </a>
       </li>
 
