@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+main {
+  margin: 19.2em 5em;
+}
+
 .skip-links {
   margin: 0;
   padding: 0;
@@ -70,7 +74,6 @@ header a:hover {
   list-style-type: none;
   justify-content: center;
   padding: 0;
-  margin: 5em 10em;
 }
 
 .featured-item li {
@@ -134,7 +137,7 @@ section ul img {
     font-weight: bold;
   }
 
-  @media only screen and (min-width: 27em) {
+  @media only screen and (min-width: 28em) {
 
     html {
       font-size: 100%
@@ -155,7 +158,11 @@ section ul img {
       list-style-type: none;
       justify-content: space-around;
       padding: 0;
-      margin-bottom: 11.1em;
+      align-items: center;
+    }
+
+    .featured-item li {
+      margin: 0 1em;
     }
 
     footer a img {
